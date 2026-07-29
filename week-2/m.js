@@ -10,5 +10,6 @@ console.log("process.platform");
 console.log("\nGlobal Message:");
 console.log("global.message");
 console.log("\nProgram Executed Successfully.");
+console.log("\nProgram Executed Successfully.");
 
 
