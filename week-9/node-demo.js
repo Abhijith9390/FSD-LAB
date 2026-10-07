@@ -10,7 +10,6 @@ async function main() {
 
         const db = client.db("collegeDB");
 
-        // Select collction
         const students = db.collection("students");
 
         const insertResult = await students.insertOne({
@@ -22,7 +21,6 @@ async function main() {
 
         console.log("Inserted ID:", insertResult.insertedId);
 
-        // ---------------- FIND ----------------
         const student = await students.findOne({ rollNo: 101 });
 
         console.log("\nStudent found:");
